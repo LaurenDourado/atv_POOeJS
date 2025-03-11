@@ -13,7 +13,7 @@ Além disso, o código inclui animações em CSS para melhorar a experiência vi
 ### Tecnologias Utilizadas
 - HTML: Estrutura básica da página web.
 - CSS: Estilo e animações para a página.
-- JavaScript: Lógica de Programação Orientada a Objetos, interatividade e manipulação do DOM.
+- JavaScript: Lógica de Programação Orientada a Objetos, interatividade.
 
 ### Explicação do Código
 
