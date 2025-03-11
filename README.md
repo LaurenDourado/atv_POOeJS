@@ -27,5 +27,12 @@ O título tem um gradiente azul com uma animação de brilho que se altera quand
 As listas de funcionários, alunos e professores têm um estilo visual interativo, com hover nos itens e sombras para melhorar a apresentação.
 
 - HTML:
-A estrutura contém títulos e listas (<ul>) para exibir os funcionários, alunos e professores.
+A estrutura contém títulos e listas (ul) para exibir os funcionários, alunos e professores.
 O código JavaScript é carregado no final da página para garantir que todos os elementos do DOM estejam carregados antes da manipulação.
+
+## Veja como ficou:
+
+![image](https://github.com/user-attachments/assets/2f90fa53-3ee5-480f-a53e-e01eebe25d7f)
+![image](https://github.com/user-attachments/assets/df0b9bcc-f137-43ba-9fcc-fced12a882ec)
+
+
