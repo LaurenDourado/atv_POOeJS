@@ -1,0 +1,108 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte e cor de fundo */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: aliceblue;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100%;  /* Permite que a altura do corpo seja maior que a tela */
+    flex-direction: column;
+    overflow-x: hidden; /* Impede rolagem horizontal */
+}
+
+/* Centralizando o conteúdo e definindo o container */
+.container {
+    max-width: 1000px; /* Limite para garantir que a largura seja adequada no desktop */
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+/* Título principal (h1) */
+h1 {
+    font-size: 3rem; /* Tamanho fixo para o título */
+    background: linear-gradient(45deg, #1e90ff, #00bfff); /* Gradiente azul */
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    animation: glow 1.5s ease-in-out infinite alternate;
+    margin-bottom: 30px;
+}
+
+h1 span {
+    font-size: 1.3em; /* Tamanho maior para o emoji */
+    margin-left: 10px;
+}
+
+/* Efeito de Brilho no título */
+h1:hover {
+    animation: glow 0.10s ease-in-out infinite alternate;
+    text-shadow: 0 0 25px rgba(30, 144, 255, 1), 0 0 50px rgba(30, 144, 255, 0.7);
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px rgba(30, 144, 255, 0.8), 0 0 20px rgba(30, 144, 255, 0.6);
+    }
+    100% {
+        text-shadow: 0 0 25px rgba(30, 144, 255, 1), 0 0 50px rgba(30, 144, 255, 0.7);
+    }
+}
+
+/* Estilos para subtítulos (h2 e h3) */
+h2 {
+    text-align: center;
+    color: #1e90ff;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    text-align: center;
+    color: #1e90ff;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+/* Estilos das listas */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinha os itens da lista ao centro */
+}
+
+ul li {
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    margin: 10px 0;
+    background-color: #e0f7fa; /* Cor de fundo suave */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    width: 80%; /* Limita a largura dos itens da lista */
+    text-align: center; /* Garante que o texto dentro dos itens seja centralizado */
+}
+
+ul li:hover {
+    background-color: #b2ebf2;
+    transform: scale(1.05); /* Leve aumento no item */
+}
